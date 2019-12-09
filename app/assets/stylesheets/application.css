@@ -20,7 +20,9 @@ h1, h2, h3, h4, h5, h6, p, body {
 
 .wrapper{
   min-width: 960px;
+
 }
+
 
 header{
   height: 46px;
@@ -45,7 +47,9 @@ h1{
   min-height: 100px;
   width: 596px;
   margin: 0 auto 1px;
+
   background-color: #fff
+
 }
 
 .message img{
@@ -68,9 +72,10 @@ h1{
 }
 
 .time{
-  color: #bbb
-}
 
+  color: #bbb
+
+}
 .text{
   padding: 0 10px 10px 10px;
   line-height: 18px;
@@ -79,20 +84,5 @@ h1{
 footer{
   height: 80px;
   background-color: #555;
-}
 
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+}
