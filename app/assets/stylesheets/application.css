@@ -1,3 +1,4 @@
+
 body, html {
   height: 100%;
   background-color: #ddd;
@@ -19,7 +20,9 @@ h1, h2, h3, h4, h5, h6, p, body {
 
 .wrapper{
   min-width: 960px;
-  }
+
+}
+
 
 header{
   height: 46px;
@@ -44,7 +47,9 @@ h1{
   min-height: 100px;
   width: 596px;
   margin: 0 auto 1px;
-  background-color: #fff;
+
+  background-color: #fff
+
 }
 
 .message img{
@@ -67,9 +72,10 @@ h1{
 }
 
 .time{
-  color: #bbb;
-}
 
+  color: #bbb
+
+}
 .text{
   padding: 0 10px 10px 10px;
   line-height: 18px;
@@ -78,4 +84,5 @@ h1{
 footer{
   height: 80px;
   background-color: #555;
+
 }
